@@ -42,7 +42,6 @@ void insertNode(Node **head, char data){
 
 void deleteNode(Node **head, char data){
 	Node *i = *head;
-	Node *t;
 
 	if( *head == NULL)
 		return;
