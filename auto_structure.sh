@@ -17,5 +17,6 @@ else
 
 #Test file
 	echo "#include <stdio.h>" > $1Test.c
+	echo -e "#include \"$1.c\"" >> $1Test.c
 	echo -e "\nint main(int argc, char *argv[]){\n\n}" >> $1Test.c
 fi
