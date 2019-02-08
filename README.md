@@ -12,7 +12,8 @@
     + [다항식](https://github.com/BJ-Lim/Algorithm/tree/master/polynomial)
     + [이중 연결 리스트](https://github.com/BJ-Lim/Algorithm/tree/master/doublyLinkedList)
     + [원형 연결 리스트](https://github.com/BJ-Lim/Algorithm/tree/master/circularLinkedList)
-  - [스택](https://github.com/BJ-Lim/Algorithm/tree/master/stack)
+  - 스택
+    + [기본 스택](https://github.com/BJ-Lim/Algorithm/tree/master/stack)
   - 큐
     + [배열 큐](https://github.com/BJ-Lim/Algorithm/tree/master/simpleQueue)
     + [연결 리스트 큐](https://github.com/BJ-Lim/Algorithm/tree/master/linkedQueue)
