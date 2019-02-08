@@ -35,5 +35,13 @@
     + 병합 정렬
     + 힙 정렬
 
+# 구조
+* 각각의 폴더는 다음 구조를 가지며, 이 구조는 [auto_structure.sh](https://github.com/BJ-Lim/Algorithm/blob/master/auto_structure.sh)에 의해 생성됩니다.
+```
+  makefile    해당 파일들을 컴파일 합니다.
+  name.c      코드 구현 부분이 위치합니다.
+  nameTest.c  구현 테스트에 대한 코드입니다.
+  nameTest    구현 테스트에 대한 실행파일입니다.
+```
 # 참조
 * 이 과정은 희미한 기억과 wikipedia를 참조합니다.
