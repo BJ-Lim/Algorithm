@@ -1,34 +1,28 @@
 #include <stdlib.h>
 
-#ifndef TYPE
-#define TYPE int
-#endif
-
-struct tree{
-	TYPE data;
+typedef struct tree{
+	char data;
 	struct tree *left;
 	struct tree *right;
-};
+}Tree;
 
-typedef struct tree Tree;
+#ifndef TYPE
+#define TYPE char
+#endif
 
-void createBT(Tree *root);
+void createBT(Tree **root);
 void set_data(Tree *tree, TYPE data);
 void insert_left_BT(Tree *tree, Tree *sub);
 void insert_right_BT(Tree *tree, Tree *sub);
 void freeBT(Tree **root);
+void print_preorder(Tree *tree);
+void print_inorder(Tree *tree);
+void print_postorder(Tree *tree);
 
-void createBT(Tree *root){
-	Tree *tree;
-
-	if(root)
-		return;
-
-	tree = (Tree*)malloc(sizeof(Tree));
-	tree->left = NULL;
-	tree->right = NULL;
-
-	root = tree;
+void createBT(Tree **root){
+	*root = (Tree*)malloc(sizeof(Tree));
+	(*root)->left = NULL;
+	(*root)->right = NULL;
 }
 
 void set_data(Tree *tree, TYPE data){
@@ -47,7 +41,7 @@ void insert_right_BT(Tree *tree, Tree *sub){
 void free_postorder(Tree *tree){
 	if(tree){
 		free_postorder(tree->left);
-		free_portorder(tree->right);
+		free_postorder(tree->right);
 		free(tree);
 	}
 }
@@ -58,7 +52,7 @@ void freeBT(Tree **root){
 }
 
 void print(TYPE data){
-#if
+	printf("%c ", data);
 }
 
 void print_preorder(Tree *tree){
