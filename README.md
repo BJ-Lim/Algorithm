@@ -18,12 +18,11 @@
     + [배열 큐](https://github.com/BJ-Lim/Algorithm/tree/master/simpleQueue)
     + [연결 리스트 큐](https://github.com/BJ-Lim/Algorithm/tree/master/linkedQueue)
   - 트리
-    + 이진 트리
-      = 이진 트리 순회
-    + 전위 순회 알고리즘
-    + 중위 순회 알고리즘
-    + 후위 순회 알고리즘
-    + 레벨 순회 알고리즘
+    + [이진 트리](https://github.com/BJ-Lim/Algorithm/tree/master/tree_binary)
+      + 전위 순회 알고리즘[완료]
+      + 중위 순회 알고리즘[완료]
+      + 후위 순회 알고리즘[완료]
+      + 레벨 순회 알고리즘
     + AVL 트리
     + 2-3 트리
   - 정렬
