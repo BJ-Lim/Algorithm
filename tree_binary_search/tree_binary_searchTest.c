@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include "tree_binary_search.c"
 
+/*
+ 	A shape of tree is like follow.
+
+								60
+				40								80
+		30				50				70				90
+					45		55						85		95
+ */
+
 int main(int argc, char *argv[]){
 	Tree *root = NULL;
 
